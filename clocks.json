@@ -6,11 +6,11 @@
 		"hands": ["60","300","5"],
 		"source": "standard"
 	}, {
-		"name": "Imperial",
-		"type": "imperial",
+		"name": "Decimal",
+		"type": "decimal",
 		"maxNum": "10",
 		"hands": ["10","10","1"],
-		"source": "imperial"
+		"source": "decimal"
 	}, {
 		"name": "Silly",
 		"type": "silly",
