@@ -84,16 +84,6 @@
 				for(num = 1; num <= selClock.maxNum; num++) {
 					drawNum(num, (selClock.maxNum / 2));
 				}
-				
-				/*if($("#clockSelect").val() == "standard") {
-					for(num= 1; num < 13; num++){
-						drawNum(num, 6);
-					}
-				} else if($("#clockSelect").val() == "imperial") {
-					for(num= 1; num < 11; num++){
-						drawNum(num, 5);
-					}
-				}*/
 			}
 			
 			function drawNum(num, dist) {
@@ -119,7 +109,7 @@
 						now += dt.getHours() * 3600;
 						//now += dt.getMilliseconds() / 1000;
 						break;
-					case "imperial":
+					case "decimal":
 						now = new Date().getImpYearFracTime();
 						break;
 				}
